@@ -16,7 +16,7 @@ message = f'Subject: {SUBJECT}\n\n{TEXT}'
 while True:
     server.sendmail(f'testpyhton11@gmail.com', 'gautambisht709@gmail.com', message)
     print("Mail sent at :", s)
-    time.sleep(12)
+    time.sleep(1200)
 
 
 
