@@ -4,11 +4,12 @@ import time
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
 server.login('testpyhton11@gmail.com', 'e8c2cadf2149')
-SUBJECT = 'This  Project is under development '
-TEXT = ' Testing.'
-
-
 s = time.strftime("%Y-%b-%d %I:%M")
+SUBJECT = 'This  Project is under development '
+TEXT = ' Testing.' 
+
+
+
 
 
 message = f'Subject: {SUBJECT}\n\n{TEXT}'
